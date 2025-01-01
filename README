@@ -1,0 +1,49 @@
+# Skein3 Frontend
+
+Skein3 Frontend is a web application that performs hash calculations using the Skein3 algorithm. This project allows users to input text and generate hash values in various modes.
+
+## Features
+
+- User-friendly interface
+- Different hash modes (STANDARD and others)
+- Fast and reliable hash calculations
+
+## Installation
+
+To run this project on your local machine, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/nzengi/zen-skein.git
+   cd zen-skein/frontend
+   ```
+
+2. **Install Required Dependencies**:
+   Run the following command in the project directory to install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+
+3. **Start the Application**:
+   To start the application in development mode, run:
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in Browser**:
+   The application typically runs at `http://localhost:3000`. Open this address in your browser to view the application.
+
+## Usage
+
+1. Enter text in the input field.
+2. Select the hash mode (e.g., STANDARD).
+3. Click the "Calculate" button.
+4. The calculated hash value will be displayed on the screen.
+
+## Contributing
+
+If you would like to contribute to this project, please create a pull request or report any issues.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
